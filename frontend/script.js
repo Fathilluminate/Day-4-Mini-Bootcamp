@@ -3,7 +3,7 @@
 // ==========================================
 
 // URL Endpoint API Backend (Alamat tujuan request)
-const API_URL = "http://localhost:3000/pengeluaran";
+const API_URL = "https://day-4-mini-bootcamp.vercel.app/pengeluaran";
 
 // Seleksi elemen HTML untuk dimanipulasi
 const tombolTambah = document.getElementById("tombol-tambah");
