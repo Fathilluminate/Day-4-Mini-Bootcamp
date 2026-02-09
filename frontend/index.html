@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Pengeluaran Saya</h1>
+        
+        <div class="input-box">
+            <input type="text" id="nama-pengeluaran" placeholder="Makan siang...">
+            <input type="number" id="nominal-pengeluaran" placeholder="Jumlah (Rp)...">
+            <button id="tombol-tambah">Tambah</button>
+        </div>
+
+        <div class="total-box">
+            Total: <strong>Rp <span id="total-harga">0</span></strong>
+        </div>
+
+        <ul id="daftar-pengeluaran">
+            <!-- Daftar akan muncul di sini -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
